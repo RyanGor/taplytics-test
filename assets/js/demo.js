@@ -9,6 +9,10 @@
 (function($) {
 
 	var $window = $(window);
+	Taplytics.runningExperiments(function(expAndVars) {
+analytics.track(‘ExperimentsAndVariations’, { 'expAndVars'
+});
+});
 
 	// Styles.
 		$(
