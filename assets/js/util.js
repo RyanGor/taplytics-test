@@ -115,6 +115,11 @@
 
 						}
 
+						Taplytics.runningExperiments(function(expAndVars) {
+						analytics.track(‘ExperimentsAndVariations’, { 'expAndVars'
+						});
+						});
+
 					// Hide.
 						config.target.removeClass(config.visibleClass);
 
