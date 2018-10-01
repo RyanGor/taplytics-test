@@ -120,6 +120,10 @@
 						});
 						});
 
+						Taplytics.variable("StartSection", false, function(startSection) {
+    // Update your interface/functionality with new value.
+});
+
 					// Hide.
 						config.target.removeClass(config.visibleClass);
 
